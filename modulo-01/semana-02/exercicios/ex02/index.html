@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVinHouse</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>DEVinPHILIPS</h1>
+        <h2>M1S02E02</h2>
+    </header>
+    <main>
+        <article>
+            <h2>Checando a faixa etária que você pertence</h2>
+            <br>
+            <p>Informe a sua idade:</p>
+            <input type="number" name="idade" id="valorIdade" min="0" />
+        </article>
+        <article>
+            <br>
+            <button onclick= calculaFaixaEtaria() >
+                Mostrar faixa etária.
+            </button>
+        </article>
+        <aside>
+            <br>
+            <p id="resultadoIdade"></p>
+        </aside>
+    </main>
+    <footer>
+        <p>Desenvolvido por Matheus Espindola.</p>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
