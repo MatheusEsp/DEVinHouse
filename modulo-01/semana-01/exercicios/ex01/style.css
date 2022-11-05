@@ -59,6 +59,7 @@ footer{
     text-align: center;
     padding: 2px;
     color: rgba(0, 0, 0, 0.733);
+    display: inline-block;
 }
 footer p{
     color: white;
