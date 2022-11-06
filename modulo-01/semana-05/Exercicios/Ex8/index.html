@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex01</title>
-    <script src="app.js" type="module"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex8</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    #login-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+  </style>
 </head>
 <body>
-    <h1>DiH[PHILIPS]</h1>
+  <h1>Exercício 8 </h1>
+
+  <div id="login-container">
+    <label for="campo-usuario">Usuário:</label>
+    <input type="text" id="campo-usuario" name="usuario" placeholder="E-mail">
+    <label for="campo-senha">Senha:</label>
+    <input type="password" id="campo-senha" name="senha" placeholder="Senha" >
+    <button id="botao-acessar">Acessar</button>
+    <p id="p-mensagem"></p>
+  </div>
 </body>
+<script src="app.js" type="module"></script>
 </html>
