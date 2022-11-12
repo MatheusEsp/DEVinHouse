@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex8</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+        }
+        header{
+            text-align: center;
+            color: azure
+        }
+        body{
+            background-color: rgba(0, 0, 0, 0.418);
+            font-family: sans-serif;
+            
+        }
+        .container{
+            display: flex;
+            margin: 10px
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: azure;
+            padding: 20px;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exercício 08</h1>
+    <br>
+    <h4>Importando dados de Usuários da <a href="https://randomuser.me/api/?results=4" target="_blank">API</a></h4>
+    </header>
+    <ul id="list"></ul>
+</body>
+<script src="index.js" async></script>
+</html>
