@@ -6,7 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./notification-list.component.scss']
 })
 export class NotificationListComponent {
-  titulo = 'Primeiro contato com bootstrap'
-  subtitulo = 'dando meus primeiros passo utilizando o bootstrap'
-  data = '25/11/2022'
+  teste = [{
+    titulo: 'teste1',
+    subtitulo: 'teste2',
+    data: 'teste3'
+  },
+  {
+    titulo: 'teste3',
+    subtitulo: 'teste4',
+    data: 'teste5'
+  }
+]
+  
+
+
 }

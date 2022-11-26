@@ -1,7 +1,7 @@
 <p>notification-list works!</p>
 
-<ul class="list-group">
-    <li class="list-group-item"><h1>{{titulo}}</h1> </li>
-    <li class="list-group-item"><strong>{{subtitulo}}</strong></li>
-    <li class="list-group-item">{{data}} haha</li>
+<ul *ngFor="let item of teste" class="list-group">
+    <li class="list-group-item"><h1>{{item.titulo}} </h1> </li>
+    <li class="list-group-item"><strong>{{item.subtitulo}}</strong></li>
+    <li class="list-group-item">{{item.data}}</li>
 </ul>
