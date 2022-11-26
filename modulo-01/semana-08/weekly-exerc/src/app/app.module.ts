@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NotificationListComponent } from './componentes/notification-list/notification-list.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
     AppComponent,
     NotificationListComponent,
     NavbarComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule
