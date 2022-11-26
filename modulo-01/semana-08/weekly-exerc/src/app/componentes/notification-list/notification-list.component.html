@@ -1,7 +1,7 @@
-<p>notification-list works!</p>
 
-<ul *ngFor="let item of teste" class="list-group">
+<ul *ngFor="let item of teste; let i = index" class="list-group">
     <li class="list-group-item"><h1>{{item.titulo}} </h1> </li>
     <li class="list-group-item"><strong>{{item.subtitulo}}</strong></li>
     <li class="list-group-item">{{item.data}}</li>
+    <button (click)="trocaEstado(item.titulo, item.estado, i)"style="width: 100px; border-radius: 5px; ">Lido: cd{{item.estado}}</button>
 </ul>
