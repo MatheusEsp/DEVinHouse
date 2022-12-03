@@ -1,19 +1,4 @@
-
 <div class="container">
-    <div class="mb-3 row mt-3">
-        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-control" id="staticEmail "value="email" [(ngModel)]="emailHtml">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-        <div class="col-sm-10">
-          <input type="password" class="form-control" id="inputPassword" value="senha" [(ngModel)] ="passwordHtml">
-        </div>
-      </div>
-      <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3"(click)= getInfos()>Confirma</button>
-      </div>
+    <app-navbar></app-navbar>
+    <app-busca (RetornoPai)="retornoPai($event)"> </app-busca>
 </div>
-

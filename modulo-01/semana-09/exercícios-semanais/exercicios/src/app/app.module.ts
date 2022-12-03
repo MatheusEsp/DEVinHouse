@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { CardComponent } from './componentes/card/card.component';
 import { FormsModule } from '@angular/forms';
+import { BuscaComponent } from './componentes/busca/busca.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CardComponent
+    CardComponent,
+    BuscaComponent
   ],
   imports: [
     BrowserModule,
