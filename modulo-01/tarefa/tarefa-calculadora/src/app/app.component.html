@@ -1,0 +1,15 @@
+<p>Digite um número</p>
+<input type="number" [(ngModel)] ="numeroHtml1">
+<br>
+<p>Digite outro número</p>
+<input type="number" id="num2" [(ngModel)]="numeroHtml2">
+<br>
+<br>
+<p>O resultado é: {{ retorno }}</p>
+
+<button (click) ="somarHome()">Soma</button>
+<button (click) ="subtrairHome()">Subtrair</button>
+<br>
+<button (click) ="dividirHome()">Dividir</button>
+<button (click) ="multiHome()">Multiplicar</button>
+
