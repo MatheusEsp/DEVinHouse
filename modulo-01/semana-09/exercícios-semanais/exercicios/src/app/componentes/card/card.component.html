@@ -1,10 +1,10 @@
 <div class="card" style="width: 18rem;">
-    <img src="https://ovicio.com.br/wp-content/uploads/2022/11/20221101-ovicio-jon-snow-hbo-555x555.jpg" class="card-img-top" alt="...">
+    <img src="{{personagem.imagem}}" class="card-img-top" alt="...">
     <div class="card-body">
-      <h2 class="card-title">Jon Snow</h2>
+      <h2 class="card-title">{{ personagem.nome }}</h2>
       <p></p>
-      <h6 class="card-subtitle">Interpretado por: Kit Harington</h6>
+      <h6 class="card-subtitle">{{ personagem.nomeAtor }}</h6>
       <br>
-      <p class="card-text">Esse é um personagem da série Game of Thrones.</p>
+      <p class="card-text">{{ personagem.descricao }}</p>
     </div>
   </div>
