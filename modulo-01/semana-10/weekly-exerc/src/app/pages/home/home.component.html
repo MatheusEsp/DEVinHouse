@@ -1,1 +1,6 @@
-<p>home works!</p>
+<ul *ngFor="let item of card; let i = index;" [ngClass]="item.estado == true ? 'list-group-item list-group-item-action' : 'list-group-item list-group-item-action active'" class="list-group">
+    <li class="list-group-item"><h1>{{item.titulo}} </h1> </li>
+    <li class="list-group-item"><strong>{{item.subtitulo}}</strong></li>
+    <li class="list-group-item">{{item.data}}</li>
+    <button (click)="trocaEstado(item.titulo, item.estado, i)"style="width: 100px; border-radius: 5px; ">Lido: {{item.estado}}</button>
+</ul>
