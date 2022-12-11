@@ -1,5 +1,7 @@
 <natp-filtro
 (botaoTodosClicado) ="botaoTodosFilho($event)"
 (botaoLidoClicado) ="botaoLidoFilho($event)"
-(botaoNaoLidoClicado) ="botaoNLidoFilho($event)"></natp-filtro>
-<natp-notification-list></natp-notification-list>
+(botaoNaoLidoClicado) ="botaoNLidoFilho($event)">
+</natp-filtro>
+
+<natp-notification-list [recebeFiltro]= "botaoClicado"></natp-notification-list>

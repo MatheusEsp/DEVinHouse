@@ -16,15 +16,15 @@ export class FiltroComponent {
   botaoNaoLidoClicado = new EventEmitter<string>()
 
   disparaTodos(){
-    this.botaoTodosClicado.emit('Todos')
+    this.botaoTodosClicado.emit('todos')
   }
 
   disparaLidos(){
-    this.botaoLidoClicado.emit('Lidos')
+    this.botaoLidoClicado.emit('lidos')
   }
 
   disparaNaoLidos(){
-    this.botaoNaoLidoClicado.emit('Não lidos')
+    this.botaoNaoLidoClicado.emit('nao-lidos')
   }
 
 

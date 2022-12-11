@@ -23,15 +23,18 @@ const routes: Routes = [
       children: [
       {
         path:"lidos",
-        component: HomeComponent 
+        component: HomeComponent,
+        data: { filtro: 'lidos' } 
       },
       {
         path: "nao-lidos",
-        component: HomeComponent
+        component: HomeComponent,
+        data: { filtro: 'nao-lidos' }
       },
       {
         path: "todos",
-        component: HomeComponent
+        component: HomeComponent,
+        data: { filtro: 'todos' }
       }
       ]
     },
