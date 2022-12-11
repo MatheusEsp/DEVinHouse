@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'weekly-exerc';
+
+  botaoLidoFilho(not:string){
+    alert(not)
+  }
+
+  botaoNLidoFilho(not:string){
+    alert(not)
+  }
+
+  botaoTodosFilho(not:string){
+    alert(not)
+  }
+
 }
