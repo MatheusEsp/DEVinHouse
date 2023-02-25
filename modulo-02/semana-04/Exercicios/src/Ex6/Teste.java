@@ -13,9 +13,9 @@ public class Teste {
         Teste exercicio06 = new Teste();
         try {
             exercicio06.validar("Matheus",10);
-            System.out.println("Funcionou");
+            System.out.println("Deu certo");
         } catch (TamanhoInvalidoException e){
-            System.out.println("Deu problema");
+            System.out.println("Erro inesperado");
         }
     }
 }
