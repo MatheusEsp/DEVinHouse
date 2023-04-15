@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+<form action="#" th:action="@{/formulario}"
+      th:object="${pessoa}"
+      method="post">
+  <label for="nome" >Name</label>
+    <input type="text" th:field="*{nome}" id="nome" placeholder="Nome">
+
+    <input type="text" th:field="*{idade}" id="idade" placeholder="Idade">
+
+    <input type="submit" value="Add Pessoa">
+</form>
+</body>
+</html>

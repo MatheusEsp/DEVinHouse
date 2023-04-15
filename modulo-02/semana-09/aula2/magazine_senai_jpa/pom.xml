@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>magazine_senai_jpa</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc11</artifactId>
+            <version>21.9.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.2.0.CR4</version>
+            <type>pom</type>
+        </dependency>
+
+
+    </dependencies>
+    <!--
+    <persistence version="2.1"
+                 xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    </persistence>
+
+    <persistence-unit name="magazine_senai" transaction-type="RESOURCE_LOCAL">
+	    <properties>
+    	       <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+    	       <property name="javax.persistence.jdbc.driver" value="jdbc:oracle:thin@192.168.0.104/dihphilips
+    	        <property name="javax.persistence.jdbc.user" value="teteugod"/>
+                <property name="javax.persistence.jdbc.password" value="123"/>
+                <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
+                <property name="hibernate.show_sql" value="true"/>
+                <property name="hibernate.hbm2ddl.auto" value="update"/>
+	    </properties>
+    </persistence-unit>
+    -->
+
+</project>
